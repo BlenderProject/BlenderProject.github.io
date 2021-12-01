@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background-color: rgb(22, 22, 22);
+}
+body h1{
+    color: rgb(221, 221, 221);
+    text-decoration: unset;
+    padding-left: calc(50% - 50px);
+    padding-top: 20px;
+}
+h2{
+    color: rgb(235, 204, 204);
+    padding-left: 50px;
+}
+.slider{
+    width: 960px;
+    height: 640px;
+    margin-left: 40px;
+    overflow: hidden;
+}
+.slider-line{
+    width: calc(960px*2 );
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+img{
+    width: 960px;
+    height: 540px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.slider-next{
+    position: relative;
+    left: 850px;
+    top: 5px;
+    width: 50px;
+    height: 40px;
+    background-color: rgb(14, 13, 13);
+    color: rgb(194, 193, 193);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+.slider-next:hover{
+    background-color: rgb(8, 8, 8);
+    color: rgb(172, 172, 172);
+}
+.slider-prev{
+    position: relative;
+    left: 10px;
+    top: 5px;
+    width: 50px;
+    height: 40px;
+    background-color: rgb(14, 13, 13);
+    color: rgb(194, 193, 193);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+.slider-prev:hover{
+    background-color: rgb(8, 8, 8);
+    color: rgb(172, 172, 172);
+}
+.slider-line2{
+    width: calc(960px*5);
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+.slider-next2{
+    position: relative;
+    left: 850px;
+    top: 5px;
+    width: 50px;
+    height: 40px;
+    background-color: rgb(14, 13, 13);
+    color: rgb(194, 193, 193);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+.slider-next2:hover{
+    background-color: rgb(8, 8, 8);
+    color: rgb(172, 172, 172);
+}
+.slider-prev2{
+    position: relative;
+    left: 10px;
+    top: 5px;
+    width: 50px;
+    height: 40px;
+    background-color: rgb(14, 13, 13);
+    color: rgb(194, 193, 193);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+.slider-prev2:hover{
+    background-color: rgb(8, 8, 8);
+    color: rgb(172, 172, 172);
+}
+.btn{
+    width: 100%;
+    height: auto;
+}
+.el{
+    padding-left: 40px;
+}
+.name{
+    color: rgb(194, 193, 193);
+}
+.date{
+    color: rgb(194, 193, 193);
+}
+.footer{
+    height: 200px;
+    background-color: rgb(14, 14, 14);
+}
+.art{
+    padding-left: 80%;
+    padding-top: 20px;
+    list-style: none;
+}
